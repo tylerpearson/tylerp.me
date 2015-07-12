@@ -302,7 +302,9 @@ p:last-child {
         @extend .float;
     }
 
-
+.gist {
+    margin: 40px 0;
+}
 
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
