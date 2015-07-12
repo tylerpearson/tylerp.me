@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />
+
+    {{ghost_head}}
+</head>
+<body class="loading {{body_class}}">
+
+<div class="top-decoration"></div>
+
+<a href="/">
+    <img class="logo" src="{{asset "img/ghost.svg"}}" alt="Tyler Pearson" width="50" height="50">
+</a>
+
+<div class="main">
+    <div class="container">
+        {{{body}}}
+    </div>
+</div>
+
+<footer class="footer">
+    <a target="_blank" href="http://www.youtube.com/watch?v=JU9TouRnO84">
+        <img class="footer-icon" src="{{asset "img/ghost.svg"}}" alt="ghost icon" width="30" height="30">
+    </a>
+</footer>
+
+
+{{ghost_foot}}
+<script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+</body>
+</html>

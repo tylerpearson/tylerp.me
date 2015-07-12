@@ -1,0 +1,6 @@
+{{#foreach posts}}
+<article class="post-preview box">
+    <time datetime="{{date format='YYYY-MM-DD'}}" class="post-preview-timestamp">{{date format="DD MMM YYYY"}}</time>
+    <h1 class="post-preview-title"><a href="{{url}}">{{{title}}} <span class="post-preview-more">&#x279e;</span></a></h1>
+</article>
+{{/foreach}}
