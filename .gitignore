@@ -1,2 +1,4 @@
 node_modules/
 .DS_Store
+content/themes/tyler/.sass-cache/*
+content/themes/tyler/assets/.sass-cache/*
