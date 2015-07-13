@@ -289,6 +289,48 @@ p:last-child {
         }
     }
 
+.dribbble-wrap {
+    margin-top: 60px;
+}
+
+.dribbble-shots {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .shot-wrap {
+        width: 20vw;
+        height: 15vw;
+        display: inline-block;
+        vertical-align: top;
+        background-size: cover;
+        background-position: center center;
+        transition: all 0.3s linear;
+        padding: 2px 0 0 7px;
+        border: solid 5px #fff;
+        @media (max-width: 767px) {
+            width: 50vw;
+            height: 35vw;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+            a {
+                opacity: 1;
+            }
+        }
+        a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            color: #fff;
+            font-size: 12px;
+            opacity: 0;
+            transition: all 0.3s linear;
+        }
+    }
+
 
 .footer {
     @extend .cf;

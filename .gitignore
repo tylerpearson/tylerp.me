@@ -3,3 +3,4 @@ node_modules/
 content/themes/tyler/.sass-cache/*
 content/themes/tyler/assets/.sass-cache/*
 npm-debug.log
+content/data/ghost-dev.db
