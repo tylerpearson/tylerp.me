@@ -133,11 +133,21 @@ p:last-child {
         height: 50px;
         background-size: cover;
         background-image: url('/assets/img/ghost.svg');
-        background-repeat: none;
+        background-repeat: no-repeat;
         @media (max-width: 1240px) {
+            display: none;
+        }
+    }
+
+    .mobile-logo {
+        display: none;
+        @media (max-width: 1240px) {
+            display: block;
             background-image: url('/assets/img/ghost-blue.svg');
             width: 30px;
             height: 38px;
+            position: relative;
+            margin-bottom: 15px;
         }
     }
 
@@ -509,11 +519,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-template .post-header {
-    margin-bottom: 3.4rem;
-    margin-top: 50px;
-    @media (max-width: 767px) {
-        margin-bottom: 2rem;
-    }
+    margin-bottom: 2rem;
 }
 
 .post-template .post-title {
@@ -536,7 +542,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-template .post {
-    margin-top: 80px;
+    margin-top: 30px;
     border-bottom: none;
     padding-bottom: 0;
 }
