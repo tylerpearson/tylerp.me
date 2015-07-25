@@ -129,6 +129,11 @@ p:last-child {
         left: 25px;
         @extend .float;
         text-shadow: 0 1px 1px #136996;
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        background-image: url('/assets/img/ghost.svg');
+        background-repeat: none;
     }
 
 .col {
