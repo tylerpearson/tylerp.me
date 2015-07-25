@@ -493,8 +493,11 @@ body:not(.post-template) .post-title {
 
 
 .post-template .post-header {
-   margin-bottom: 3.4rem;
-   margin-top: 50px;
+    margin-bottom: 3.4rem;
+    margin-top: 50px;
+    @media (max-width: 767px) {
+        margin-bottom: 2rem;
+    }
 }
 
 .post-template .post-title {
