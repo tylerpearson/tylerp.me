@@ -136,6 +136,8 @@ p:last-child {
         background-repeat: none;
         @media (max-width: 767px) {
             background-image: url('/assets/img/ghost-blue.svg');
+            width: 30px;
+            height: 38px;
         }
     }
 
@@ -534,7 +536,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-template .post {
-    margin-top: 100px;
+    margin-top: 80px;
     border-bottom: none;
     padding-bottom: 0;
 }
