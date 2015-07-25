@@ -134,7 +134,7 @@ p:last-child {
         background-size: cover;
         background-image: url('/assets/img/ghost.svg');
         background-repeat: none;
-        @media (max-width: 767px) {
+        @media (max-width: 1240px) {
             background-image: url('/assets/img/ghost-blue.svg');
             width: 30px;
             height: 38px;
