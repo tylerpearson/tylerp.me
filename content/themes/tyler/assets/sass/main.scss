@@ -572,6 +572,15 @@ body:not(.post-template) .post-title {
             font-size: 1rem;
         }
     }
+    li {
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        @media (max-width: 767px) {
+            font-size: 1rem;
+        }
+    }
     a {
         color: darken($color-secondary,2.5%);
         text-decoration: underline;
