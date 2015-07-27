@@ -583,7 +583,7 @@ body:not(.post-template) .post-title {
     }
     a {
         color: darken($color-secondary,2.5%);
-        text-decoration: underline;
+        font-weight: 600;
         &:hover {
             text-decoration: none;
         }
