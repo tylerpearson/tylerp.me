@@ -585,7 +585,7 @@ body:not(.post-template) .post-title {
         color: darken($color-secondary,2.5%);
         font-weight: 600;
         &:hover {
-            text-decoration: none;
+            color: $color-primary;
         }
     }
 }
